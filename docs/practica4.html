@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Práctica 4</title>
+        <link rel = "icon" href = "ull.jpg" type = "image/x-icon">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="cabecera">
+            <link rel="stlyesheet" type="text/css" href="estilos.css">
+            <div class="tabladebusqueda">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="columna1">
+                <h1 class="titulo">Universidad de La Laguna</h1>
+                <h2 class="subtitulo">Facultad de Ingeniería</h2>
+                <h3 class="subtitulo">Escuela Superior de Ingeniería y Tecnología</h3>
+                <img src="logo-ull.png" class="centro">
+                <p>
+                    La Escuela Superior de Ingeniería y Tecnología (ESIT) es una de las 5 escuelas de la Facultad de Ingeniería de la Universidad de La Laguna.  
+                </p>
+                <p>
+                    La ESIT está formada por 4 departamentos:
+                    <table border="1">
+                        <tr>
+                            <td><a href="https://www.ull.es/departamentos/ingenieria-informatica-sistemas/">Departamento de Ingeniería de Sistemas y Automática</a></td>
+                            <td><a href="https://www.ull.es/servicios/otri/anep/area-de-ingenieria-electrica-electronica-y-automatica-iel/">Departamento de Ingeniería Eléctrica y Electrónica</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.ull.es/grados/ingenieria-mecanica/">Departamento de Ingeniería Mecánica y Energética</a></td>
+                            <td><a href="https://www.ull.es/departamentos/ingenieria-quimica-y-tecnologia-farmaceutica/">Departamento de Ingeniería Química y Tecnología de los Alimentos </a></td>
+                        </tr>
+                    </table>
+                </p>
+            </div>
+            <div class="columna2">
+                <article>
+                    <h4> Creación de la Universidad</h4>
+                    <p>
+                        <img src="SelloUniversidadColorRGB.jpg">
+                        La Universidad de La Laguna (ULL) es una universidad pública española situada en 
+                        la ciudad de <a href="https://es.wikipedia.org/wiki/San_Cristóbal_de_La_Laguna">La Laguna</a>, en la isla de Tenerife, en el archipiélago canario. 
+                        Fue creada en 1792 por el rey Carlos III de España, como Real Universidad de Santa Cruz de Tenerife, 
+                        y fue la primera universidad de España en ser creada en el siglo XIX. 
+                        En 1986, la Universidad de La Laguna fue declarada Patrimonio Histórico de Canarias.
+                    </p>
+                    <h5> Años importantes</h5>
+                    <ul>
+                        <li>1792: Creación de la Universidad de Santa Cruz de Tenerife</li>
+                        <li>1986: Declaración de Patrimonio Histórico de Canarias</li>
+                        <li>2007: Creación de la Universidad de La Laguna</li>
+                    </ul>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="columna3"><h3>Enlaces</h3>
+                <div class="listasitiosrelevantes">
+                    <ul>
+                        <li><a href="https://www.ull.es">Principal</a></li>
+                        <li><a href="https://campusingenieriaytecnologia2223.ull.es">Campus</a></li>
+                        <li><a href="https://gestuni.ull.es">Portal</a></li>
+                    </ul>
+                </div>
+                <input type="text" id="texto-input">
+                <button type="button" onclick="actualizarTexto()">Mostrar texto</button>
+                <p id="texto-tarjeta"></p>
+                <button onclick="contarparrafo()">Nº de parrafos</button>
+                <p id="parrafos"></p> 
+                <button onclick="contarlista()">Nº de listas</button>
+                <p id="items"></p>
+                <button onclick="contardiv()">Nº de div</button>
+                <p id="divs"></p>
+                <button onclick="mostrarListaProductos()">Lista de la compra:</button>
+                <p id="lista-productos"></p>
+                <button onclick="resultadoCompraYFechaPago()">Resultado compra</button>
+                <p id="resultado"></p>
+                <button onclick="resultadoCompraYFechaPago()">Fecha de pago</button>
+                <p id="fecha-pago"></p>
+                <button class="boton-refrescar" onclick="location.reload()">Refrescar Página</button>
+            </div>
+        </div>
+        <footer>
+            <p>Práctica 3 de la asignatura de Desarrollo de Aplicaciones Web</p>
+            <form>
+            </form>            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+html {
+	width: 770px;
+	margin: 0 auto;
+	position : relative;
+	font-family: Arial, sans-serif;
+	font-size: 1.5em;
+	background-color: rgb(236, 236, 235);
+	color: black;
+}
+.contenedor {
+  display: flex;
+	gap: 10px;
+}
+
+.columna1 {
+  width: 55%;
+}
+.columna1 img {
+	text-align: center;
+
+}
+.columna1 tr td a{
+	color : #00720f;
+}
+.columna2 {
+	width: 30%;
+}
+.columna2 h4{
+	background-color: #9696967a;
+	padding: 10px;
+	margin: 5; /*margen del bloque */
+	text-align: center;
+}
+.columna2 h5{
+	padding: 10px;
+	margin: 5; /*margen del bloque */
+	text-align: center;
+}
+.columna2 p {
+	padding: 10px;
+	margin-top: 0.5em;
+	margin: 5; /*margen del bloque */
+	text-align: left;
+}
+.columna2 img {
+	max-width: 100%;
+	height: auto;
+}
+.menu {
+      display: block;
+      padding: 0.3em;
+      margin-bottom: 0.7em;}
+.columna3 {
+	width: 130px;
+}
+.columna3 h3{
+	background-color: #9696967a;
+	padding: 10px;
+	margin: 5; /*margen del bloque */
+	text-align: center;
+}
+.boton-refrescar {
+	background-color: #d303037a;
+	color: #080808;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.columna3 p {
+	margin-top: 0.5em;
+	font-size: 0.75em;
+	text-align: left;
+}
+.listasitiosrelevantes {
+	list-style: none;
+	display: flex;
+
+	color: #000000;
+	align-items: center;
+}
+.listasitiosrelevantes ul {
+	list-style: none;
+	display: vertical;
+	text-indent: -1em;
+	text-align: left;
+	color: #000000;
+}
+.listasitiosrelevantes li {
+	margin: 0.5em 0;
+}
+.listasitiosrelevantes li a:link {
+	color: blue;
+}
+.listasitiosrelevantes li a:hover {
+	color: red;
+}
+.listasitiosrelevantes li a:visited {
+	color: blue;
+}
+.cabecera {
+	height: 100px;
+	background-image: url('cabecera.png');
+	background-size: cover;
+	background-position: center;
+}
+.tabladebusqueda {
+	color: #fff;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	margin: 5;
+	position: relative;
+}
+
+.tabladebusqueda ul {
+	list-style: none;
+	display: flex;
+	/* margin: 0;
+	text-align: center;
+	align-items: center; */
+	padding: 10px;
+	margin: 5;
+}
+
+.tabladebusqueda li {
+	width:  100px;
+	height: auto;
+	margin: 60px;
+	position : static;
+	background-color: #9b9b9bb7;
+	border: 3px solid #000000;
+	text-align: center;
+}
+.tabladebusqueda a {
+	color: #070707;
+	font-weight: bold;
+}
+.tabladebusqueda li:hover {
+	background-color: #a040e0;
+}
